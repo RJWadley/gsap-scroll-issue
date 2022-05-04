@@ -1,5 +1,5 @@
-import * as React from "react"
-import Layout from "components/Layout"
+import * as React from "react";
+import Layout from "./Layout";
 
 const IndexPage = () => (
   <Layout>
@@ -101,6 +101,6 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <h1>Hi people</h1>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

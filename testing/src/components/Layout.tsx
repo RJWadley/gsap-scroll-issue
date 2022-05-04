@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "components/Header";
-import Footer from "components/Footer";
-import Scroll from "components/Scroll";
+import Header from "./Header";
+import Footer from "./Footer";
+import Scroll from "./Scroll";
 
 interface props {
   children: React.ReactNode | React.ReactNode[];
