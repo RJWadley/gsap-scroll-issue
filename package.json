@@ -11,13 +11,12 @@
     "gatsby-plugin-tsconfig-paths": "^1.0.5",
     "gatsby-plugin-typescript": "^4.13.0",
     "gsap-trial": "^3.10.4",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-is": "^18.1.0"
+    "react": "17",
+    "react-dom": "17"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
-    "@types/react": "^18.0.8",
+    "@types/react": "17",
     "typescript": "^4.6.4"
   },
   "keywords": [
