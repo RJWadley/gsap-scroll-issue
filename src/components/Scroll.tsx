@@ -6,11 +6,20 @@ type props = {
 };
 
 const Scroll: React.FC<props> = ({ children }) => {
+  alert("COMPONENT LOADED");
+
   useEffect(() => {
-    ScrollSmoother.create({
+    alert("CREATING SMOOTHER");
+
+    let smoother = ScrollSmoother.create({
       smooth: 1, // how long (in seconds) it takes to "catch up" to the native scroll position
       effects: true, // looks for data-speed and data-lag attributes on elements
     });
+
+    return () => {
+      alert("DESTROYING SMOOTHER");
+      smoother.kill();
+    };
   }, []);
 
   return (
